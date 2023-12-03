@@ -18,6 +18,6 @@ class Day01Test {
     @Test
     void part2() throws URISyntaxException, IOException {
         Day01 day01 = new Day01("day01_test.txt");
-        assertEquals(45000, day01.part2());
+        assertEquals(-1, day01.part2());
     }
 }
